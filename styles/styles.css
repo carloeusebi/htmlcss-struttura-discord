@@ -70,13 +70,41 @@ nav li{
 /* bottom header */
 .hder-bottom{
     width: 100vw;
-    height: 300px;
     background-color: darkblue;
     justify-content: center;   
 }
 
 .hder-abstract{
-    height: 80%;
-    width: 50%;
+    height: 250px;
+    width: 800px;
     background-color: pink;
+    margin: 50px 0;
+}
+
+
+/* main */
+.row:nth-of-type(even){
+    background-color: lightgrey;
+}
+
+.column{
+    height: 350px;
+    margin: 50px 0;
+}
+
+.c-large{
+    background-color: aqua;
+    width: calc(100%/5 * 3);
+}
+
+.c-small{
+    background-color: salmon;
+    width: calc(100%/5 * 2);
+}
+
+.green-box{
+    background-color: green;
+    height: 700px;
+    margin: 50px 0;
+    width: 100%;
 }
