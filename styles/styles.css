@@ -21,11 +21,14 @@ body{
 
 .flex{
     display: flex;
-    align-items: center;
 }
 
 .border-black{
     border: 2px dashed black;
+}
+
+.border-white{
+    border: 2px dashed white;
 }
 
 /* header */
@@ -40,6 +43,10 @@ body{
     background-color: orange;
     height: 75%;
     width: 100%;    
+}
+
+.banner *{
+    align-items: center;
 }
 
 .banner div{
@@ -108,3 +115,46 @@ nav li{
     margin: 50px 0;
     width: 100%;
 }
+
+
+/* Footer */
+footer{
+    background-color: grey;
+    padding-top: 10px;
+}
+
+.fter-top{
+    border-bottom: 2px solid white;
+}
+
+.fter-box{
+    margin-bottom: 40px;
+    height: 500px;
+}
+
+.fter-box-left{
+    background-color: red;
+    width: calc(100% / 5 * 2);
+}
+
+.fter-box-right{
+    width: calc(100% / 5 * 3);
+}
+
+.fter-box-right-column{
+    width: calc(100% / 4);
+    background-color: blue;
+}
+
+.fter-bottom-box{
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+}
+
+.fter-bottom-box div{
+    background-color: pink;
+    padding: 5px 8px;
+} 
