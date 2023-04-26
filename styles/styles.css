@@ -36,11 +36,11 @@ body{
 .hder-top{
     height: 50px;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #add8e6;
 }
 
 .banner{
-    background-color: orange;
+    background-color: #daa520;
     height: 75%;
     width: 100%;    
 }
@@ -84,7 +84,7 @@ nav li{
 .hder-abstract{
     height: 250px;
     width: 800px;
-    background-color: pink;
+    background-color: #ee82ee;
     margin: 50px 0;
 }
 
@@ -100,17 +100,17 @@ nav li{
 }
 
 .c-large{
-    background-color: aqua;
+    background-color: #1e90ff;
     width: calc(100%/5 * 3);
 }
 
 .c-small{
-    background-color: salmon;
+    background-color: #ffc0cb;
     width: calc(100%/5 * 2);
 }
 
 .green-box{
-    background-color: green;
+    background-color: #228b22;
     height: 700px;
     margin: 50px 0;
     width: 100%;
@@ -119,7 +119,7 @@ nav li{
 
 /* Footer */
 footer{
-    background-color: grey;
+    background-color: #23272a;
     padding-top: 10px;
 }
 
@@ -133,7 +133,7 @@ footer{
 }
 
 .fter-box-left{
-    background-color: red;
+    background-color: #f08080;
     width: calc(100% / 5 * 2);
 }
 
@@ -143,18 +143,18 @@ footer{
 
 .fter-box-right-column{
     width: calc(100% / 4);
-    background-color: blue;
+    background-color: #20b2aa;
 }
 
 .fter-bottom-box{
     margin-top: 40px;
     justify-content: space-between;
     align-items: center;
-    background-color: blue;
+    background-color: #7fffd4;
     height: 50px;
 }
 
 .fter-bottom-box div{
-    background-color: pink;
+    background-color: #ffb6c1;
     padding: 5px 8px;
 } 
