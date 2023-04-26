@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+:root{
+    --margin: 50px
+}
+
 /* generals */
 
 body{
@@ -40,37 +44,37 @@ body{
     align-items: center;
 }
 
-.banner{
+.hder-top-banner{
     background-color: #daa520;
     height: 75%;
     width: 100%;    
 }
 
-.banner *{
+.hder-top-banner *{
     align-items: center;
 }
 
-.banner div{
+.hder-top-banner div{
     height: 100%;
     flex-basis: 25%;
     padding: 0 10px;
 }
 
-.banner div:last-of-type{
+.hder-top-banner div:last-of-type{
     justify-content: flex-end;
 }
 
-.banner nav{
+.hder-top-banner nav{
     height: 100%;
     flex-grow: 1;
     justify-content: center;
 }
 
-nav ul{
+.hder-top-banner nav ul{
     list-style-type: none;
 }
 
-nav li{
+.hder-top-banner nav li{
     display: inline;
     padding: 0 5px;
 }
@@ -86,7 +90,7 @@ nav li{
     height: 250px;
     width: 800px;
     background-color: #ee82ee;
-    margin: 50px 0;
+    margin: var(--margin) 0;
 }
 
 
@@ -97,7 +101,7 @@ nav li{
 
 .column{
     height: 350px;
-    margin: 50px 0;
+    margin: var(--margin) 0;
 }
 
 .c-large{
@@ -113,7 +117,7 @@ nav li{
 .green-box{
     background-color: #228b22;
     height: 700px;
-    margin: 50px 0;
+    margin: var(--margin) 0;
     width: 100%;
 }
 
@@ -121,9 +125,10 @@ nav li{
 /* Footer */
 footer{
     background-color: #23272a;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
+/* top footer */
 .fter-top{
     border-bottom: 2px solid white;
 }
@@ -147,6 +152,8 @@ footer{
     background-color: #20b2aa;
 }
 
+
+/* bottom footer */
 .fter-bottom-box{
     margin-top: 40px;
     justify-content: space-between;
