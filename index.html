@@ -16,7 +16,7 @@
 
     <!-- Header -->
     <header>        
-        <!-- Azure row bigger than container -->
+        <!-- top part of the header -->
         <div class="hder-top flex">
             <!-- Yellow banner needs flex and has to be contained -->
             <div class="banner flex container">
@@ -32,6 +32,8 @@
                 <div class="border-black flex">login</div>
             </div>
         </div>
+
+        <!-- bottom part of the header -->
         <div class="hder-bottom flex">
                 <div class="hder-abstract border-black"></div>
         </div>
@@ -40,7 +42,10 @@
 
     <!-- Main -->
     <main>
+
+        <!-- row #1 -->
         <div class="row">
+            <!-- this div contains both columns so it needs display flex -->
             <div class="container flex">
                 <div class="column c-large border-black"></div>
                 <div class="column c-small border-black"></div>
@@ -69,11 +74,17 @@
 
     </main>
 
+
+    <!-- footer -->
     <footer>
+
+        <!-- top part of the footer -->
         <div class="fter-top">
+            <!-- this div contains both parts of the main footer -->
             <div class="fter-box flex container">
-                <div class="fter-box-left border-black">
-                </div>
+                <!-- left part -->
+                <div class="fter-box-left border-black"></div>
+                <!-- right part groups togheter four sub-columns -->
                 <div class="fter-box-right flex border-black">
                     <div class="fter-box-right-column border-white"></div>
                     <div class="fter-box-right-column border-white"></div>
@@ -82,9 +93,12 @@
                 </div>
             </div>
         </div>
+
+        <!-- bottom part of the header -->
         <div class="fter-bottom">
+            <!-- bottom part of the footer contains two "buttons" -->
             <div class="fter-bottom-box container flex">
-                <div class="border-black">Login</div>
+                <div class="border-black">Logo</div>
                 <div class="border-black">Button</div>
             </div>
         </div>
