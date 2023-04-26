@@ -37,6 +37,7 @@ body{
     height: 50px;
     width: 100%;
     background-color: #add8e6;
+    align-items: center;
 }
 
 .banner{
