@@ -39,7 +39,7 @@ body{
 /* top header */
 .hder-top{
     height: 50px;
-    width: 100vw;
+    width: 100%;
     background-color: #add8e6;
     align-items: center;
 }
@@ -81,7 +81,7 @@ body{
 
 /* bottom header */
 .hder-bottom{
-    width: 100vw;
+    width: 100%;
     background-color: darkblue;
     justify-content: center;   
 }
