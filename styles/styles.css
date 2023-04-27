@@ -39,7 +39,7 @@ body{
 /* top header */
 .hder-top{
     height: 50px;
-    width: 100%;
+    width: 100vw;
     background-color: #add8e6;
     align-items: center;
 }
